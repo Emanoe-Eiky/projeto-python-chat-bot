@@ -1,4 +1,4 @@
-from time import sleep
+'''from time import sleep
 while True:
     oi = input("Oi? ")
     if oi == "oi":
@@ -27,4 +27,25 @@ while True:
         break
     else: print("\033[1;31mnão estou programado para responder isso!!!\033[m tente sim ou nao,",sep=" ")
 
-dialogo = input("")
+dialogo = input("")'''
+from time import  sleep
+while True:
+    def idad():
+        per = input("Qual é a sua idade? :")
+
+
+    print("Olá")
+    num = input("Tudo bem?: ")
+    if num in "SIM sim ":
+        print("ok")
+        per = input("Qual é a sua idade? :")
+
+    elif num in "Nao nao":
+        print("Espero ue fique bem")
+        com = input("quer convesar :")
+        if com in "nao": break
+        idad()
+
+
+    else:
+        print("\033[1;31mnao estou programado para responder isso\033[m")
